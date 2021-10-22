@@ -1,0 +1,24 @@
+{
+  "required_api_version": "^2.0.0",
+  "name": "Reboot launcher",
+  "description": "Reboot launcher",
+  "developer_name": "R L",
+  "icon": "images/icon.png",
+  "options": {
+    "query_debounce": 0.05
+  },
+  "preferences": [
+    {
+      "id": "reboot",
+      "type": "keyword",
+      "name": "Reboot",
+      "default_value": "reb"
+    },
+    {
+      "id": "url",
+      "type": "text",
+      "name": "Url to send a get request",
+      "default_value": "''"
+    }
+  ]
+}
